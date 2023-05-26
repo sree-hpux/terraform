@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your Terraform code from a version control system
-                git 'https://github.com/sree-hpux/myproject.git'
+                git 'https://github.com/sree-hpux/terraform.git'
             }
         }
 
